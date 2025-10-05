@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel KPI Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🏨 Hotel KPI Dashboard</h1>
+    <p class="subtitle">A simple tool to calculate key hotel performance indicators</p>
+
+    <div class="inputs">
+      <label>Total Rooms Available:</label>
+      <input type="number" id="roomsAvailable" placeholder="e.g. 100">
+
+      <label>Rooms Sold:</label>
+      <input type="number" id="roomsSold" placeholder="e.g. 80">
+
+      <label>Total Room Revenue ($):</label>
+      <input type="number" id="roomRevenue" placeholder="e.g. 10000">
+    </div>
+
+    <div class="results">
+      <h2>Calculated KPIs</h2>
+      <p><strong>Occupancy:</strong> <span id="occupancy">N/A</span></p>
+      <p><strong>Average Daily Rate (ADR):</strong> <span id="adr">$0.00</span></p>
+      <p><strong>Revenue Per Available Room (RevPAR):</strong> <span id="revpar">$0.00</span></p>
+    </div>
+
+    <footer>
+      <p>Created by Anthony Bioseh</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
